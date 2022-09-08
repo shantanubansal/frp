@@ -15,6 +15,7 @@
 package main
 
 import (
+	"fmt"
 	"math/rand"
 	"time"
 
@@ -25,6 +26,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Hello")
 	crypto.DefaultSalt = "frp"
 	rand.Seed(time.Now().UnixNano())
 
