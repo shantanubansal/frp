@@ -3,7 +3,7 @@ jobs:
   go-version-latest:
     docker:
       - image: circleci/golang:1.16-node
-    working_directory: /go/src/github.com/fatedier/frp
+    working_directory: /go/src/github.com/shantanubansal/frp
     steps:
       - checkout
       - run: make
@@ -11,7 +11,7 @@ jobs:
   go-version-last:
     docker:
       - image: circleci/golang:1.15-node
-    working_directory: /go/src/github.com/fatedier/frp
+    working_directory: /go/src/github.com/shantanubansal/frp
     steps:
       - checkout
       - run: make

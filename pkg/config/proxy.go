@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/fatedier/frp/pkg/consts"
-	"github.com/fatedier/frp/pkg/msg"
+	"github.com/shantanubansal/frp/pkg/consts"
+	"github.com/shantanubansal/frp/pkg/msg"
 
 	"gopkg.in/ini.v1"
 )
